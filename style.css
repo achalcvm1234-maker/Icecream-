@@ -1,0 +1,93 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+background:#ff4da6;
+padding:15px 30px;
+}
+
+nav h2{
+color:white;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:20px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:#ffe6f2;
+text-align:center;
+}
+
+.hero button{
+padding:10px 25px;
+background:#ff4da6;
+border:none;
+color:white;
+margin-top:20px;
+}
+
+.menu{
+padding:50px;
+text-align:center;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.card{
+border:1px solid #ddd;
+padding:20px;
+width:200px;
+}
+
+.order{
+padding:50px;
+text-align:center;
+}
+
+.order input,
+.order select{
+display:block;
+margin:10px auto;
+padding:10px;
+width:250px;
+}
+
+.contact{
+padding:50px;
+text-align:center;
+}
+
+.contact input,
+.contact textarea{
+display:block;
+margin:10px auto;
+padding:10px;
+width:250px;
+}
